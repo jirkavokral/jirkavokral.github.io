@@ -2,9 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/luke-littler-darts/index.html",
       "/posts/introduction/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/Project1/Project1.html",
       "/posts/welcome/index.html"
     ]
   }
