@@ -185,9 +185,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>“Triple twenty will leave him double ten. And he finishes it on double ten! Luke Littler by name, but right now arguably the biggest name in the world of darts. Littler takes the giant step into the World Championship final. He made it nineteen days shy of his 17th birthday, and tomorrow he could be the World Darts Champion!”</p>
-<p>At the turn of last year and this year, the entire world of darts learned to count on a new rising star. Luke Littler made it to the World Championship final at the age of 16. He had to go through all the rounds to reach the final as he was not seeded due to his position in the world rankings.</p>
-<p>The youngster with the nickname “The Nuke” was already good before the World Championship. And he continues to be in great form. Let’s take a look at the data from the end of March 2023 to the end of March 2024 and compare him with the 112 best players in the world.</p>
+<p>At the turn of last year and this year, millions of fans around the world heard on Sky Sports broadcast: “Triple twenty will leave him double ten. And he finishes it on double ten! Luke Littler by name, but right now arguably the biggest name in the world of darts. Littler takes the giant step into the World Championship final. He made it nineteen days shy of his 17th birthday, and tomorrow he could be the World Darts Champion!”</p>
+<p>The entire world of darts learned to count on a new rising star. Luke Littler made it to the World Championship final at the age of 16. He had to go through all of the rounds to reach the finals as he was not seeded due to his position in the world rankings.</p>
+<p>The youngster, with the nickname “The Nuke”, was already good before the World Championship, and he continues to be in great form. Data from the end of March 2023 to the end of March 2024, that compare him with the 112 best players in the world, show how good he actually was.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -246,16 +246,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>He won more than 77 percent of those legs. That’s five percentage points more than world number one Humphries or six more than three-time world champion and world number two Michael van Gerwen. On the occasions when he went to the dartboard second, his success rate dropped to 52.67 percent. But that is the second-best result of all.</p>
+<p>He won more than 77 percent of those legs. That’s five percentage points more than world number one Luke Humphries and six more than three-time world champion and world number two Michael van Gerwen. Littler’s success rate dropped to 52.67 percent on the occasions when he went to the dartboard second. However, that is still the second-best result of all the players.</p>
 <p>“The Nuke” sent one opponent after another home at the World Championship. When he faced the legendary Raymond van Barneveld in the round of sixteen, the pundits didn’t give Littler much of a chance. But they were wrong. Littler defeated the former world number one and world champion 4:1.</p>
-<p>Even Brendan Dolan or world number eight and former world champion Rob Cross couldn’t send him home.</p>
-<p>Littler led 4-2 in the final. He became the darling of the fans, who chanted, “You’ve got school in the morning, school in the morning!”</p>
-<p>But in the end, Luke Humphries turned the dramatic finals around and became the World Champion and world number one. But Littler’s performance earned him an invitation to Premier League Darts, a select company of the best darts players who would meet in fifteen tournaments throughout the spring.</p>
+<p>Even Brendan Dolan and world number eight and former world champion Rob Cross couldn’t send him home.</p>
+<p>Littler led 4:2 in the final. He became the darling of the fans, who chanted, “You’ve got school in the morning, school in the morning!”</p>
+<p>But in the end, Luke Humphries turned the dramatic finals around and became the world champion and world number one. But Littler’s performance earned him an invitation to Premier League Darts, a select company of the best darts players who would meet in fifteen tournaments throughout the spring.</p>
 <p>In eleven tournaments so far, he has reached the finals four times and won twice. As a result, Littler currently leads the overall standings in the highly prestigious Premier League.</p>
 <p>So, is “The Nuke” the best player in the world right now?</p>
-<p>“No.&nbsp;No way,” Littler said when journalists asked him that question earlier this year. “You still got Luke Humphries in there, you still got Michael van Gerwen in there. I’m one of the best right now in terms of performance, but I’m not the best in the world,” he added.</p>
+<p>“No.&nbsp;No way,” Littler said when he was asked this question after one of the matches at the World Championship. “You still got Luke Humphries in there, you still got Michael van Gerwen in there. I’m one of the best right now in terms of performance, but I’m not the best in the world,” he added.</p>
 <p>Well.</p>
-<p>Littler had the highest winning percentage during the whole year. He played a total of 398 games (by far the most of all players, the second-highest result is 339), of which he won 333. This means that he won more than 83 percent of all his games.</p>
+<p>Littler had the highest winning percentage during the whole year. He played a total of 398 games (by far the most of all players, the second-highest result is 339), of which he won 333. This means that he won more than 83 percent of all his games (median among players who had average higher than 92 and won more than 60 percent of their games was 64.2 percent).</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -308,26 +308,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">100</span>,<span class="dv">110</span>)) <span class="sc">+</span></span>
 <span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span><span class="fu">c</span>(<span class="dv">90</span>,<span class="fl">102.5</span>)) <span class="sc">+</span></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_size_continuous</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">10</span>), <span class="at">name =</span> <span class="st">"Share of games </span><span class="sc">\n</span><span class="st">won (in %)"</span>) <span class="sc">+</span></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>luke_littler, </span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>First_9_averages, <span class="at">y=</span>AVG, <span class="at">label=</span>Player), <span class="at">nudge_y =</span> <span class="dv">1</span>, <span class="at">nudge_x =</span> .<span class="dv">3</span>) <span class="sc">+</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>bubble_top2, </span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>First_9_averages, <span class="at">y=</span>AVG, <span class="at">label=</span>Player), <span class="at">nudge_y =</span> .<span class="dv">72</span>, <span class="at">nudge_x =</span> <span class="sc">-</span><span class="fl">1.4</span>, <span class="at">size=</span><span class="fl">3.4</span>) <span class="sc">+</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>   <span class="fu">labs</span>(</span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Littler wins the most games even without the highest averages"</span>, </span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Unlike players in &lt;span style = 'color:blue;'&gt;blue&lt;/span&gt;, 'The Nuke' is not above median in all three stats. However, no one else was more succesful in winning the games than him."</span>,</span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span> <span class="st">"Legs averages"</span>, <span class="at">x =</span> <span class="st">"Averages of first 9 darts"</span>, <span class="at">caption=</span><span class="st">"Source: Darts Orakel | By Jiri Vokral"</span></span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fl">8.5</span>), </span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_textbox_simple</span>(<span class="at">size=</span><span class="dv">11</span>), </span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title.position =</span> <span class="st">"plot"</span></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fl">103.64</span>) <span class="sc">+</span> </span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="fl">94.61</span> ) <span class="sc">+</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_size_continuous</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">10</span>), <span class="at">name =</span> <span class="st">"Share of games </span><span class="sc">\n</span><span class="st">won (in %)"</span>) <span class="sc">+</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>luke_littler, </span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>First_9_averages, <span class="at">y=</span>AVG, <span class="at">label=</span>Player), <span class="at">nudge_y =</span> <span class="dv">1</span>, <span class="at">nudge_x =</span> .<span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>bubble_top2, </span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>First_9_averages, <span class="at">y=</span>AVG, <span class="at">label=</span>Player), <span class="at">nudge_y =</span> .<span class="dv">72</span>, <span class="at">nudge_x =</span> <span class="sc">-</span><span class="fl">1.4</span>, <span class="at">size=</span><span class="fl">3.4</span>) <span class="sc">+</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>   <span class="fu">labs</span>(</span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Littler wins the most games even without the highest averages"</span>, </span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Unlike players in &lt;span style = 'color:blue;'&gt;blue&lt;/span&gt;, 'The Nuke' is not above median in all three stats. However, no one else was more succesful in winning the games than him. Black lines indicate the median of first 9 darts and overall averages."</span>,</span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span> <span class="st">"Legs averages"</span>, <span class="at">x =</span> <span class="st">"Averages of first 9 darts"</span>, <span class="at">caption=</span><span class="st">"Source: Darts Orakel | By Jiri Vokral"</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fl">8.5</span>), </span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_textbox_simple</span>(<span class="at">size=</span><span class="dv">11</span>), </span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title.position =</span> <span class="st">"plot"</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -337,8 +339,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>As mentioned before, Littler made his presence felt at the PDC World Championships. Prior to this tournament, he had been hovering on the fringes of PDC and junior events. For example, he took over the final of the 2023 PDC World Youth Championships and defeated Gian van Veen 6:4 in sets.</p>
-<p>Media refer to Littler also as “180’s machine”. He had most of them thrown (869) in the past 12 months. But it should be remembered that “The Nuke” played the most games of any of the top 112 players in the world.</p>
+<p>Littler made his presence felt at the PDC World Championships. Prior to this tournament, he had been hovering on the fringes of PDC and junior events. For example, he took over the final of the 2023 PDC World Youth Championships and defeated Gian van Veen 6:4 in sets.</p>
+<p>Media refer to Littler also as “180’s machine”. He had most of them thrown (869) in the past 12 months. “The Nuke” also played the most games of any of the top 112 players in the world.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -387,7 +389,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
 <span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>   <span class="fu">labs</span>(</span>
 <span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"World Champions Humpries and Anderson consistently scored the highest"</span>, </span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Littler could not get close to the &lt;span style = 'color:red;'&gt;best ones&lt;/span&gt; in both number of matches with 100+ average and scored maximums per match. Black lines indicate the median."</span>,</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Littler could not get close to the &lt;span style = 'color:blue;'&gt;best ones&lt;/span&gt; in both number of matches with 100+ average and scored maximums per match. Black lines indicate the median."</span>,</span>
 <span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span> <span class="st">"Share of matches with 100+ average (in %)"</span>, <span class="at">x =</span> <span class="st">"Number 180's made per match"</span>, <span class="at">caption=</span><span class="st">"Source: Darts Orakel | By Jiri Vokral"</span></span>
 <span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
 <span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
@@ -407,7 +409,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>On a per-game basis, Littler “only” threw 2.18 maximums per game, which puts him in 29th place in this statistic. Luke Humphries managed to score more than 4 per game.</p>
-<p>Littler managed het an average of more than 100 points in 22 percent of his matches. Two-time world champion Anderson did it in 45.59 percent of his games, and the oft-mentioned Humphries in almost 45 percent.</p>
+<p>Littler managed hit an average of more than 100 points in 22 percent of his matches. Two-time world champion Anderson did it in 45.59 percent of his games, and the oft-mentioned Humphries in almost 45 percent.</p>
 <p>In both stats, Littler is above the median, but well behind the best players.</p>
 <p>What still significantly drags down Littler is his checkout success rate. Any player can close his leg by scoring the appropriate double. For instance, if a player has 40 left, he can close the leg with a double 20.</p>
 <div class="cell">
@@ -430,7 +432,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>   <span class="fu">labs</span>(</span>
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"'The Nuke' should work on doubles this year"</span>, </span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Checkouts went pretty well for Littler, but he's trailing the best five. However, among currently top ten ranked players, he is in 7th place. 'The Nuke' is currently number 26 in the world."</span>,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Checkouts went pretty well for Littler, but he's trailing the best five. However, among currently top ten ranked players, he is in 7th place. 'The Nuke' is currently world number 26."</span>,</span>
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span> <span class="st">"Checkout percentage"</span>, <span class="at">x =</span> <span class="st">""</span>, <span class="at">caption=</span><span class="st">"Source: Darts Orakel | By Jiri Vokral"</span></span>
 <span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
 <span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
@@ -450,9 +452,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>However, even top players sometimes fall behind in checkouts.</p>
-<p>Among the top 112 players who have played at least 120 games, Littler is ranked 15th in this stat.</p>
-<p>His figure was significantly higher than, for example, world number four Nathan Aspinall (37.66 percent), world number eight and former world champion Peter Wright (36.86 percent), or world number nine Dimitri Van den Bergh (34.91).</p>
-<p>So, was Luke Littler the best darts player in the past 12 months? A little bit, yes, but much more like no.</p>
+<p>Littler is 15th best among the top 112 players who have played at least 120 games checkouts.</p>
+<p>His figure was significantly higher than, for example, world number four Nathan Aspinall (37.66 percent), world number eight and former world champion Peter Wright (36.86 percent), or world number nine Dimitri Van den Bergh (34.91 percent).</p>
+<p>So, was Luke Littler the best darts player in the past 12 months? A little bit, yes, but more like no.</p>
 <p>Some of his stats are quite breathtaking, especially considering his age and lack of experience. In other stats he is close to the best players in the world, but still behind them.</p>
 <p>The next twelve months, when “The Nuke” will be competing against the best regularly, will tell us more. The 17-year-old Englishman is proving just what he is capable of in this year’s Premier League Darts…</p>
 
